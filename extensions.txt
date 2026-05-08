@@ -1,0 +1,14 @@
+# Sample extensions list. Pass to: vsix-dl download --from-file extensions.txt
+# Lines starting with '#' are ignored. Inline ' #' comments work too.
+# Pin a specific version with '@version'.
+
+# Editor basics
+editorconfig.editorconfig
+
+# Python (pin a known-good version as an example)
+ms-python.python@2024.22.0
+
+# Languages
+golang.go
+#rust-lang.rust-analyzer
+redhat.ansible

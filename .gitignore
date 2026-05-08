@@ -1,0 +1,6 @@
+/bin
+/out
+/dist
+/vsixdl
+
+.DS_Store

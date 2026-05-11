@@ -60,8 +60,8 @@ type msMarketplaceClient struct {
 
 const mpAPIVersion = "3.0-preview.1"
 
-// MS Marketplace flag bits. The numeric values come from Microsoft's gallery
-// API and are stable. We OR them together to ask for the data we need.
+// MS Marketplace flag bits. The numeric values come from MS gallery API
+// and are stable. We OR them together to ask for the data we need.
 const (
 	mpFlagIncludeVersions          = 0x1
 	mpFlagIncludeFiles             = 0x2
@@ -258,7 +258,7 @@ func (m *msMarketplaceClient) versions(publisher, name string) ([]versionInfo, e
 	return info.Versions, nil
 }
 
-// ---------- Open VSX client ----------
+// Open VSX client
 
 type openVSXClient struct {
 	base string

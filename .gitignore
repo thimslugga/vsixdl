@@ -1,6 +1,118 @@
+# Build output
+build/
 /bin
 /out
 /dist
 /vsixdl
+*.vsix
 
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Code coverage profiles and other test artifacts
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Dependency directories (remove the comment below to include it)
+#vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Patch
+*.patch
+*.diff
+*.orig
+*.rej
+
+# Environment variables
+.env
+.env.local
+
+# Vim
+*~
+*.swp
+.netrwhist
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+
+# Kiro
+.kiro/*
+
+# zed
+.zed/*
+!.zed/settings.json
+!.zed/tasks.json
+!.zed/debug.json
+
+.idea
+.idea/*
+
+# Dropbox settings and caches
+.dropbox
+.dropbox.attr
+.dropbox.cache
+
+# macOS
+._*
 .DS_Store
+.localized
+__MACOSX/
+.AppleDouble
+.LSOverride
+Icon[]
+lost+found
+*.xpi
+
+# Linux
+*.deb
+*.rpm
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+*.lnk
+$RECYCLE.BIN/
+*.stackdump
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Exclude archives
+*.zip
+*.7z
+*.gz
+*.gzip
+*.tgz
+*.tar.gz
+*.bzip
+*.bzip2
+*.bz2
+*.xz
+*.txz
+*.zst
+*.tzst

@@ -1,0 +1,18 @@
+---
+extends: default
+locale: en_US.UTF-8
+yaml-files:
+  - "*.yaml"
+  - "*.yml"
+  - ".yamllint"
+ignore: |
+  .git
+  bin
+  out
+  .venv
+  venv
+  node_modules
+rules:
+  indentation:
+    spaces: 2
+    indent-sequences: false

@@ -1,0 +1,18 @@
+# ShellCheck:
+
+# Default shell dialect
+shell=bash
+
+# Always allow ShellCheck to open arbitrary files from 'source' statements.
+external-sources=true
+
+# Optional: Set color settings (auto, always, never)
+color=auto
+
+# Optional: Enable all optional checks
+enable=all
+
+# Suppress common false positives:
+# SC1091: Not following sourced file (not input)
+# SC2034: Variable appears unused (often exported or used elsewhere)
+disable=SC1091,SC2034
